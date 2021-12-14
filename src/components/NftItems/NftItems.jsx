@@ -50,7 +50,7 @@ const NftItems = () => {
                             },
                             // when window width is <= 999px
                             768: {
-                                slidesPerView: 2,
+                                slidesPerView: 4,
                                 spaceBetweenSlides: 10
                             },
                             999: {
@@ -75,8 +75,8 @@ const NftItems = () => {
             <div className="nft-character-display pt-5 pb-3">
                 <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-4"></div>
-                    <div className="col-md-8">
+                    <div className="col-lg-4 col-md-1"></div>
+                    <div className="col-lg-8 col-md-11">
                         <div className="d-flex">
                             <div className="character-box">
                                 <img src={character.fullImage} alt="yuan with snakes" className="img-fluid"/>

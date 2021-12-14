@@ -12,16 +12,16 @@ const News = () => {
                 <section className="mt-5">
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-4 mb-3">
                                 <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-4 mb-3">
                                 <img src={GameSlide2} alt="man with a sword" className="img-fluid" />
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-4 mb-3">
                                 <img src={GameSlide3} alt="man with a sword" className="img-fluid" />
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-4 mb-3">
                                 <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
                             </div>
                         </div>

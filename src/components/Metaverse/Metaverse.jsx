@@ -13,9 +13,9 @@ const Metaverse = () => {
                     <h1>Meta<span className="text-warning">Verse</span></h1>
                     <div className="meta-cards mt-4">
                         <div className="row">
-                            <div className="col-md-4 mb-3">
+                            <div className="col-lg-4 col-md-6 mb-3">
                                 <div className="meta-card text-center" data-aos="fade-right" data-aos-delay="50"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out-cubic">
                                     <div className="meta-image">
                                         <img src={metaFarm} alt="farming with metaverse" className="img-fluid" />
@@ -26,9 +26,9 @@ const Metaverse = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-3">
+                            <div className="col-lg-4 col-md-6  mb-3">
                                 <div className="meta-card text-center" data-aos="fade-down" data-aos-delay="50"
-                                data-aos-duration="2000"
+                                data-aos-duration="1000"
                                 data-aos-easing="ease-in-out-cubic">
                                     <div className="meta-image">
                                         <img src={metaGame} alt="Gaming with metaverse" className="img-fluid" />
@@ -39,9 +39,9 @@ const Metaverse = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-3">
+                            <div className="col-lg-4 col-md-6  mb-3">
                                 <div className="meta-card text-center" data-aos="fade-left" data-aos-delay="50"
-                    data-aos-duration="2000"
+                    data-aos-duration="1000"
                     data-aos-easing="ease-in-out-cubic">
                                     <div className="meta-image">
                                         <img src={metaEarn} alt="earning with metaverse" className="img-fluid" />

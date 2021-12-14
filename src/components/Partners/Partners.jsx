@@ -25,32 +25,32 @@ const Partners = () => {
                     <h2 className="text-center">SEEN </h2>
                     <div className="seen-display">
                         <div className="row py-4">
-                            <div className="col-md-2 mb-3">
+                            <div className="col-lg-2 col-md-3 mb-3">
                                 <div className="image-box">
                                     <img src={seen1} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-2 mb-3">
+                            <div className="col-lg-2 col-md-3 mb-3">
                                 <div className="image-box">
                                     <img src={seen2} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-2 mb-3">
+                            <div className="col-lg-2 col-md-3 mb-3">
                                 <div className="image-box">
                                     <img src={seen3} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-2 mb-3">
+                            <div className="col-lg-2 col-md-3 mb-3">
                                 <div className="image-box">
                                     <img src={seen4} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-2 mb-3">
+                            <div className="col-lg-2 col-md-3 mb-3">
                                 <div className="image-box">
                                     <img src={seen5} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-2">
+                            <div className="col-lg-2 col-md-3">
                                 <div className="image-box">
                                     <img src={seen6} alt="" className="img-fluid"/>
                                 </div>
@@ -62,18 +62,18 @@ const Partners = () => {
                     <h2 className="text-center">Secured By</h2>
                     <div className="secured-display">
                         <div className="row py-5">
-                            <div className="col-md-3"></div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-1"></div>
+                            <div className="col-lg-3 col-md-5 mb-3">
                                 <div className="secured-box">
                                 <img src={seen2} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-3 mb-3">
+                            <div className="col-lg-3 col-md-5 mb-3">
                             <div className="secured-box">
                                 <img src={seen5} alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-md-3"></div>
+                            <div className="col-lg-3 col-md-1"></div>
                         </div>
                     </div>
                 </div>
