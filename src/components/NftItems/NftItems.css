@@ -1,0 +1,60 @@
+.nft-section {
+    background: #210036;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.nft-item-box {
+    position: relative;
+    object-fit: cover;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.nft-item-box img {
+    height: 210px;
+    object-fit: cover;
+}
+
+/* .nft-item-box:hover {
+    border: 5px solid #BE8F14;
+    border-radius: 10px;
+} */
+
+.nft-item-box::before,
+.nft-item-box::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+.nft-item-box:hover::after {
+    content: '';
+    width: 43px;
+    height: 43px;
+    bottom: -5%;
+    right: -5%;
+    border-bottom: 4px solid #BE8F14;
+    border-right: 4px solid #BE8F14;
+    border-bottom-right-radius: 10px;
+}
+
+.nft-item-box:hover::before {
+    content: '';
+    width: 43px;
+    height: 43px;
+    top: -5%;
+    left: -5%;
+    border-top: 4px solid #BE8F14;
+    border-left: 4px solid #BE8F14;
+    border-top-left-radius: 10px;
+}
+
+.nft-character-display {
+    background: url(../../images/character-display-bg.png),#210036;
+    background-size: cover;
+    background-position: top center;
+}

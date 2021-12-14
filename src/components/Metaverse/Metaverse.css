@@ -1,0 +1,11 @@
+.meta-holder {
+    background: #210036;
+}
+
+.meta-section {
+    background: #27073B;
+    /* box-shadow: 8px 10px 0px rgba(33, 0, 54, 0.25); */
+    /* border-radius: 6px; */
+    color: #fff;
+    padding: 100px 0;
+}

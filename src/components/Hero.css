@@ -1,0 +1,31 @@
+.hero-section {
+    background: url(../images/hero-bg.png),#210036;
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+}
+
+.welcome-section {
+    margin-top: 200px;
+    color: #fff;
+}
+
+.welcome-section h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.welcome-section h5 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.welcome-section button {
+    font-weight: 700;
+}
+
+@media(max-width: 760px) {
+    .welcome-section {
+        margin-top: -100px;
+    }
+}
