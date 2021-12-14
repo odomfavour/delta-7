@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 import Blackhole from '../components/BlackHole/Blackhole'
 import BuyDelta from '../components/BuyDelta/BuyDelta'
 import Counter from '../components/Counter'

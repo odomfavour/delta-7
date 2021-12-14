@@ -39,23 +39,23 @@ const NftItems = () => {
             <p className="text-center mb-5">Earn and trade your NFT items on the marketplace to make more money</p>
             <Swiper
                         modules={[Autoplay, Navigation]}
-                        spaceBetween={20}
+                        spaceBetween={10}
                         slidesPerView={6}
                         navigation
                         autoplay
                         breakpoints={{
                             375: {
-                                slidesPerView: 1,
-                                spaceBetweenSlides: 20
+                                slidesPerView: 2,
+                                spaceBetweenSlides: 10
                             },
                             // when window width is <= 999px
                             768: {
                                 slidesPerView: 2,
-                                spaceBetweenSlides: 20
+                                spaceBetweenSlides: 10
                             },
                             999: {
                                 slidesPerView: 7,
-                                spaceBetweenSlides: 20
+                                spaceBetweenSlides: 10
                             }
 
                         }}

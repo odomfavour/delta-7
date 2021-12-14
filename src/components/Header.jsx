@@ -3,6 +3,7 @@ import { Navbar, Container, Nav,} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import './Header.css'
 import hamburger from '../images/menu.svg'
+import logo from '../images/logo.png'
 const Header = () => {
     const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
@@ -17,7 +18,7 @@ const Header = () => {
                     <img src={hamburger} alt=""/>
                     </button>
                     
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                    <Navbar.Brand href="#"><img src={logo} alt="" className='img-fluid'/></Navbar.Brand>
                 </div>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll" className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} >

@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6 text-center">
-                        <img src={ gameCards } alt="game-cards" className="img-fluid"/>
+                        <img src={ gameCards } alt="game-cards" className="img-fluid pt-4"/>
                     </div>
                     <div className="col-md-6">
                         <div className="welcome-section">

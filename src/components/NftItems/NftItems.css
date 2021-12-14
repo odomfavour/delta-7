@@ -35,8 +35,8 @@
     content: '';
     width: 43px;
     height: 43px;
-    bottom: -5%;
-    right: -5%;
+    bottom: -3%;
+    right: -3%;
     border-bottom: 4px solid #BE8F14;
     border-right: 4px solid #BE8F14;
     border-bottom-right-radius: 10px;
@@ -46,8 +46,8 @@
     content: '';
     width: 43px;
     height: 43px;
-    top: -5%;
-    left: -5%;
+    top: -3%;
+    left: -3%;
     border-top: 4px solid #BE8F14;
     border-left: 4px solid #BE8F14;
     border-top-left-radius: 10px;
