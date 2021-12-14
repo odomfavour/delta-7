@@ -17,7 +17,7 @@ const GamePlay = () => {
         <div className="game-play-section">
             <div className="container-fluid">
                 <h1 className="pt-5">Game<span className="text-warning">Play</span></h1>
-                <section className="mt-5">
+                <section className="my-5">
                     <Swiper
                         modules={[Autoplay, Navigation]}
                         spaceBetween={50}
@@ -43,7 +43,7 @@ const GamePlay = () => {
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                    <div className="text-center">
+                    <div className="text-center mb-5">
                         <h5>Play with Friends</h5>
                         <p>Share strategies, donate cards to help your teammates, build your own community! Compete against each other to 
                             see who is the best earner in Defiwar</p>
