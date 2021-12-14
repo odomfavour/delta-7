@@ -5,3 +5,9 @@
 .main-navbar a {
     color: #fff !important;
 }
+
+.navbar-toggler:focus {
+    border: none !important;
+    color: transparent !important;
+    background: transparent !important;
+}

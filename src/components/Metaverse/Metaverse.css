@@ -1,5 +1,6 @@
 .meta-holder {
     background: #210036;
+    overflow-x: hidden;
 }
 
 .meta-section {

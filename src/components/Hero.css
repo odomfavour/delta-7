@@ -3,6 +3,7 @@
     height: 100vh;
     background-size: cover;
     background-position: top center;
+    padding-top: 100px;
 }
 
 .welcome-section {

@@ -5,23 +5,19 @@ import './Header.css'
 import hamburger from '../images/menu.svg'
 import logo from '../images/logo.png'
 const Header = () => {
-    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+    // const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
-  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+//   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
     return (
         <div>
-            <Navbar className="main-navbar" expand="lg">
+            <Navbar className="main-navbar" expand="lg" fixed="top">
                 <Container>
                 {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
-                <div className="d-flex">
-                    <button type="button" className="me-3 navbar-toggler" aria-label="Toggle navigation" aria-expanded={!isNavCollapsed ? true : false} data-toggle="collapse" data-target="#navbarScroll"aria-controls="navbarScroll" onClick={handleNavCollapse}>
-                    <img src={hamburger} alt=""/>
-                    </button>
-                    
+                <div className="d-flex align-items-center">
+                    <Navbar.Toggle aria-controls="navbarScroll" className='me-3'><img src={hamburger} alt=""/></Navbar.Toggle>
                     <Navbar.Brand href="#"><img src={logo} alt="" className='img-fluid'/></Navbar.Brand>
                 </div>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll" className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} >
+                    <Navbar.Collapse id="navbarScroll">
                     <Nav
                         className="ms-auto my-2 my-lg-0"
                         navbarScroll
