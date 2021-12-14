@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 import './footer.css'
 import logo from '../../images/logo.png'
 import twitter from '../../images/socials/twitter.svg'
@@ -17,27 +19,27 @@ const Footer = () => {
                         </div>
                         <div className="bottom-links">
                             <ul>
-                                <li><a href="#">GameBase</a></li>
-                                <li><a href="#">PrivatePolicy</a></li>
-                                <li><a href="#">GameFi</a></li>
-                                <li><a href="#">Docs</a></li>
-                                <li><a href="#">Terms of Service</a></li>
+                                <li><Link to="/">GameBase</Link></li>
+                                <li><Link to="/">PrivatePolicy</Link></li>
+                                <li><Link to="/">GameFi</Link></li>
+                                <li><Link to="/">Docs</Link></li>
+                                <li><Link to="/">Terms of Service</Link></li>
                             </ul>
                         </div>
                         <div className="social-links">
                             <ul>
-                                <li><a href="#">
+                                <li><Link to="/">
                                     <img src={telegram} alt="" className="img-fluid"/>
-                                    </a></li>
-                                <li><a href="#">
+                                    </Link></li>
+                                <li><Link to="/">
                                 <img src={facebook} alt="" className="img-fluid"/>
-                                    </a></li>
-                                <li><a href="#">
+                                    </Link></li>
+                                <li><Link to="/">
                                 <img src={youtube} alt="" className="img-fluid"/>
-                                    </a></li>
-                                <li><a href="#">
+                                    </Link></li>
+                                <li><Link to="/">
                                 <img src={twitter} alt="" className="img-fluid"/>
-                                    </a></li>
+                                    </Link></li>
                             </ul>
                         </div>
                     </div>
