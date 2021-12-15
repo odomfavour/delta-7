@@ -4,6 +4,12 @@
 
 .main-navbar a {
     color: #fff !important;
+    font-size: 18px !important;
+}
+
+.main-navbar .main-btn {
+    color: #2D294E !important;
+    font-weight: 700 !important;
 }
 
 .navbar-toggler:focus {

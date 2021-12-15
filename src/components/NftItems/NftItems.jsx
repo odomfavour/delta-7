@@ -79,7 +79,7 @@ const NftItems = () => {
                     <div className="col-lg-8 col-md-11">
                         <div className="d-flex">
                             <div className="character-box">
-                                <img src={character.fullImage} alt="yuan with snakes" className="img-fluid"/>
+                                <img src={character.fullImage} alt="yuan with snakes" className="img-fluid bounce"/>
                             </div>
                             <div className="character-text">
                                 <h3 className="text-warning text-uppercase">{character.name}</h3>

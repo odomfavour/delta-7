@@ -3,3 +3,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.main-btn {
+    background: #FFBF18 !important;
+    padding: 6px 20px !important;
+    color: #2D294E !important;
+}

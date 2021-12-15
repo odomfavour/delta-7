@@ -23,31 +23,32 @@ const Header = () => {
                         navbarScroll
                     >
                         <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="#">Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/">Token</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/">News</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/">Metaverse</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link"  to="/">FAQ</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link"  to="/">NFT Market</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link"  to="/">Blind Box</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/">Docs</Link>
-                            </li>
-                        <button className="btn btn-warning">BUY DEFIWAR</button>
-                    
+                            <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Token</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">News</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Metaverse</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link"  to="/">FAQ</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link"  to="/">NFT Market</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link"  to="/">Blind Box</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Docs</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link btn main-btn" to="/">BUY DEFIWAR</Link>
+                        </li>
                     </Nav>
                     </Navbar.Collapse>
                 </Container>
