@@ -3,3 +3,8 @@
     min-height: 100vh;
     color: #fff;
 }
+
+.contract-token input{
+    background: #210036;
+    color: #fff;
+}

@@ -6,7 +6,7 @@ import GameSlide3 from '../../images/game-slide-3.png'
 
 const News = () => {
     return (
-        <div className="py-5 news-section">
+        <div className="py-5 news-section" id="news">
             <div className="container-fluid">
                 <h2 className="py-4 text-center">NEWS</h2>
                 <section className="mt-5">

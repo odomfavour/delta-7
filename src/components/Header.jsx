@@ -23,28 +23,28 @@ const Header = () => {
                         navbarScroll
                     >
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="#">Home</Link>
+                            <a className="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Token</Link>
+                            <a className="nav-link" href="#token">Token</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">News</Link>
+                            <a className="nav-link" href="#news">News</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Metaverse</Link>
+                            <a className="nav-link" href="#metaverse">Metaverse</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link"  to="/">FAQ</Link>
+                            <a className="nav-link"  href="#faq">FAQ</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link"  to="/">NFT Market</Link>
+                            <a className="nav-link"  href="#nft-market">NFT Market</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link"  to="/">Blind Box</Link>
+                            <a className="nav-link"  href="#blind-box">Blind Box</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/">Docs</Link>
+                            <a className="nav-link" href="#docs">Docs</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link btn main-btn" to="/">BUY DEFIWAR</Link>

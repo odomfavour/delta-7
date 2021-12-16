@@ -13,6 +13,7 @@ import NftItems from '../components/NftItems/NftItems'
 import Partners from '../components/Partners/Partners'
 import RoadMap from '../components/RoadMap/RoadMap'
 import Tokenomics from '../components/Tokenomics/Tokenomics'
+import Faq from '../components/Faq/Faq'
 
 const index = () => {
     return (
@@ -28,6 +29,7 @@ const index = () => {
            <RoadMap/>
            <BuyDelta/>
            <Partners/>
+           <Faq/>
            <News/>
            <Footer/>
         </div>

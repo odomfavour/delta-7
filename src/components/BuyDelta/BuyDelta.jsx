@@ -51,12 +51,12 @@ const BuyDelta = () => {
                             <div className="col-lg-1"></div>
                             <div className="col-lg-5 col-md-7 mb-3">
                                 <div className="row">
-                                    <div className="col-md-5">
+                                    <div className="col-md-4">
                                     <div className="icon-box text-center">
                                         <img src={step3} alt="" className="img-fluid"/>
                                     </div>
                                     </div>
-                                    <div className="col-md-7">
+                                    <div className="col-md-8">
                                     <div className="buy-text">
                                     <h5>Use BNB to exchange DELTA7</h5>
                                     <ul className="">
@@ -67,7 +67,7 @@ const BuyDelta = () => {
                                         <li>Before the exchange is completed, click the gear and set the slide to 10-15%</li>
                                         <li>Set the amount you want to buy and click on the exchange button</li>
                                             </ul>
-                                            <p>PancakeSwap: https://exchange.pancakeswap.finance</p>
+                                            <p>PancakeSwap: <span className='text-warning'>https://exchange.pancakeswap.finance</span></p>
                                     </div>
                                     </div>
                                 </div>

@@ -6,7 +6,7 @@ import './Metaverse.css'
 
 const Metaverse = () => {
     return (
-        <div className="meta-holder">
+        <div className="meta-holder" id="metaverse">
             <div className="container-fluid">
                 <div className="meta-section">
                     <div className="container">

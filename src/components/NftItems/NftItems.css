@@ -59,6 +59,11 @@
     background-position: top center;
 }
 
+.character-box .character {
+    height: 400px;
+    object-fit: cover;
+}
+
 .bounce {
     animation: bounce 2s ease infinite;
   }
