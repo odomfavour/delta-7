@@ -4,6 +4,7 @@ import innerCard from '../images/inner-card.png'
 import GameSlide1 from '../images/game-slide-1.png'
 import GameSlide2 from '../images/game-slide-2.png'
 import GameSlide3 from '../images/game-slide-3.png'
+import GameLabel from '../images/game-slide-label.png'
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
@@ -15,8 +16,8 @@ import 'swiper/modules/autoplay/autoplay.min.css'; // core Swiper
 const Counter = () => {
     return (
         <div className="counter-section">
-            <section className="container-fluid">
-                <div className="row py-3 px-5">
+            <section className="container">
+                <div className="row pt-4 pb-3 px-5 count-box-upper">
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">
@@ -51,11 +52,11 @@ const Counter = () => {
                     </div>
                 </div>
             </section>
-            <section className="mt-5">
+            <section className="mt-3">
                 <div className="container-fluid">
                 <Swiper
                         modules={[Autoplay, Navigation]}
-                        spaceBetween={50}
+                        spaceBetween={20}
                         slidesPerView={4}
                         navigation
                         autoplay
@@ -80,37 +81,52 @@ const Counter = () => {
                         >
                         <SwiperSlide>
                         <div className="col-md-12">
-                            <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
+                            <div className='d-flex justify-content-center align-items-center partner-card'>
+                                <div className='text-center'>
+                                    <h5>Backer Partners</h5>
+                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
+                                </div>
+                            </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="col-md-12">
-                            <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
+                        <div className='d-flex justify-content-center align-items-center partner-card'>
+                                <div className='text-center'>
+                                    <h5>Backer Partners</h5>
+                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
+                                </div>
+                            </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="col-md-12">
-                            <img src={GameSlide2} alt="man with a sword" className="img-fluid" />
+                        <div className='d-flex justify-content-center align-items-center partner-card'>
+                                <div className='text-center'>
+                                    <h5>Backer Partners</h5>
+                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
+                                </div>
+                            </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="col-md-12">
-                            <img src={GameSlide3} alt="man with a sword" className="img-fluid" />
+                        <div className='d-flex justify-content-center align-items-center partner-card'>
+                                <div className='text-center'>
+                                    <h5>Backer Partners</h5>
+                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
+                                </div>
+                            </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="col-md-12">
-                            <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
-                        </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                        <div className="col-md-12">
-                            <img src={innerCard} alt="man with a sword" className="img-fluid" />
-                        </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                        <div className="col-md-12">
-                            <img src={GameSlide1} alt="man with a sword" className="img-fluid" />
+                        <div className='d-flex justify-content-center align-items-center partner-card'>
+                                <div className='text-center'>
+                                    <h5>Backer Partners</h5>
+                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
+                                </div>
+                            </div>
                         </div>
                         </SwiperSlide>
                     </Swiper>

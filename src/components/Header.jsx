@@ -41,13 +41,10 @@ const Header = () => {
                             <a className="nav-link"  href="#nft-market">NFT Market</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"  href="#blind-box">Blind Box</a>
+                            <a className="nav-link"  href="#partners">Partners</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#docs">Docs</a>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link btn main-btn" to="/">BUY DEFIWAR</Link>
+                            <Link className="nav-link btn main-btn" to="/">BUY DELTA7</Link>
                         </li>
                     </Nav>
                     </Navbar.Collapse>

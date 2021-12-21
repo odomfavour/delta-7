@@ -5,7 +5,7 @@ import roadMap from '../../images/roadmap.png'
 const RoadMap = () => {
     return (
         <div className="pt-5 road-map-section">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="roadmap-holder pb-5">
                     <div className="row">
                         <div className="col-md-4 mb-3">

@@ -5,7 +5,7 @@ import Tchart from '../../images/chart.png'
 const Tokenomics = () => {
     return (
         <div className="token-section py-5" id="token">
-            <div className="container-fluid">
+            <div className="container">
                 <h1 className='heading'>TOKEN<span className="text-warning">OMICS</span></h1>
                 <div className="token-base">
                     <div className="row">

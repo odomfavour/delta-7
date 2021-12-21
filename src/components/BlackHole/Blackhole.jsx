@@ -13,7 +13,7 @@ const Blackhole = () => {
             <div className="container-fluid">
                 <div className="black-hole-holder">
                     <h2 className="text-center heading">BLACK HOLE </h2>
-                    <h2 className="text-center text-warning mb-5">ALGORITHM</h2>
+                    <h2 className="text-center text-warning mb-5 heading">ALGORITHM</h2>
                     <div className="mt-4">
                         <div className="row">
                             <div className="col-md-4 col-6 mb-3">

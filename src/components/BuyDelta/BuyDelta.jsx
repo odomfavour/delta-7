@@ -7,7 +7,7 @@ import step3 from '../../images/buy/step3.png'
 const BuyDelta = () => {
     return (
         <div className="pt-5 buy-delta-section">
-            <div className="container-fluid">
+            <div className="container">
                 <div className="buy-section">
                     <h1 className='heading'>HOW TO BUY $DELTA7?</h1>
                     <div className="mt-5">

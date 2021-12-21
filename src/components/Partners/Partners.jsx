@@ -9,8 +9,8 @@ import seen6 from '../../images/seen/seen6.png'
 
 const Partners = () => {
     return (
-        <div className="pt-5 partners-section">
-            <div className="container-fluid">
+        <div className="pt-5 partners-section" id="partners">
+            <div className="container">
                 <h2 className="text-uppercase text-center heading">Partners <span className="text-warning">and</span> investors</h2>
                 <div className="mt-5">
                     <div className="row">

@@ -5,6 +5,7 @@
 .main-navbar a {
     color: #fff !important;
     font-size: 18px !important;
+    margin-right: 20px;
 }
 
 .main-navbar .main-btn {
@@ -16,4 +17,8 @@
     border: none !important;
     color: transparent !important;
     background: transparent !important;
+}
+
+.nav-item {
+    margin-right: 10px;
 }
