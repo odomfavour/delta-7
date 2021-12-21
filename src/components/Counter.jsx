@@ -1,9 +1,5 @@
 import React from 'react'
 import './Counter.css'
-import innerCard from '../images/inner-card.png'
-import GameSlide1 from '../images/game-slide-1.png'
-import GameSlide2 from '../images/game-slide-2.png'
-import GameSlide3 from '../images/game-slide-3.png'
 import GameLabel from '../images/game-slide-label.png'
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
