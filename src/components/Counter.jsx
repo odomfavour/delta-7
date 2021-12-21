@@ -16,7 +16,7 @@ const Counter = () => {
     return (
         <div className="counter-section">
             <section className="container-fluid">
-                <div className="row py-5">
+                <div className="row py-3 px-5">
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">

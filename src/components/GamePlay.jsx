@@ -16,7 +16,7 @@ const GamePlay = () => {
     return (
         <div className="game-play-section">
             <div className="container-fluid">
-                <h1 className="pt-5">Game<span className="text-warning">Play</span></h1>
+                <h1 className="pt-5 heading">Game<span className="text-warning">Play</span></h1>
                 <section className="my-5">
                     <Swiper
                         modules={[Autoplay, Navigation]}

@@ -8,7 +8,7 @@ const News = () => {
     return (
         <div className="py-5 news-section" id="news">
             <div className="container-fluid">
-                <h2 className="py-4 text-center">NEWS</h2>
+                <h2 className="py-4 text-center heading">NEWS</h2>
                 <section className="mt-5">
                     <div className="container-fluid">
                         <div className="row">

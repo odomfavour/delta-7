@@ -6,7 +6,7 @@ const Tokenomics = () => {
     return (
         <div className="token-section py-5" id="token">
             <div className="container-fluid">
-                <h1>TOKEN<span className="text-warning">OMICS</span></h1>
+                <h1 className='heading'>TOKEN<span className="text-warning">OMICS</span></h1>
                 <div className="token-base">
                     <div className="row">
                         <div className="col-md-6 mb-3">
@@ -24,7 +24,7 @@ const Tokenomics = () => {
                                 {/* <h5 className="text-center">
                                 Total: 500.000.000 DFCWA
                                 </h5> */}
-                                <div className="chart-box">
+                                <div className="chart-box px-5">
                                     <img src={Tchart} alt="" className="img-fluid"/>
                                 </div>
                             </div>

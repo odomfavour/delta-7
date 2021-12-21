@@ -11,7 +11,7 @@ const Partners = () => {
     return (
         <div className="pt-5 partners-section">
             <div className="container-fluid">
-                <h2 className="text-uppercase text-center">Partners <span className="text-warning">and</span> investors</h2>
+                <h2 className="text-uppercase text-center heading">Partners <span className="text-warning">and</span> investors</h2>
                 <div className="mt-5">
                     <div className="row">
                         <div className="col-md-3"></div>

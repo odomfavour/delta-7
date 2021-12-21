@@ -35,7 +35,7 @@ const NftItems = () => {
      }
     return (
         <div className="nft-section pt-5" id="nft-market">
-            <h2 className="text-center mb-3">NFT <span className="text-warning">ITEMS</span></h2>
+            <h2 className="text-center mb-3 heading">NFT <span className="text-warning">ITEMS</span></h2>
             <p className="text-center mb-5">Earn and trade your NFT items on the marketplace to make more money</p>
             <Swiper
                         modules={[Autoplay, Navigation]}

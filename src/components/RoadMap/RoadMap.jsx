@@ -10,7 +10,7 @@ const RoadMap = () => {
                     <div className="row">
                         <div className="col-md-4 mb-3">
                             <div className="d-flex justify-content-start align-items-center h-100">
-                                <h4>Road<span className="text-warning">Map</span></h4>
+                                <h4 className='heading'>Road<span className="text-warning">Map</span></h4>
                             </div>
                         </div>
                         <div className="col-md-8 mb-3">

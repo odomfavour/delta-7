@@ -9,7 +9,7 @@ const BuyDelta = () => {
         <div className="pt-5 buy-delta-section">
             <div className="container-fluid">
                 <div className="buy-section">
-                    <h1>HOW TO BUY $DELTA7?</h1>
+                    <h1 className='heading'>HOW TO BUY $DELTA7?</h1>
                     <div className="mt-5">
                         <div className="row">
                             <div className="col-lg-5 col-md-7 mb-3">

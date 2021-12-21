@@ -10,7 +10,7 @@ const Metaverse = () => {
             <div className="container-fluid">
                 <div className="meta-section">
                     <div className="container">
-                    <h1>Meta<span className="text-warning">Verse</span></h1>
+                    <h2 className='heading'>Meta<span className="text-warning">Verse</span></h2>
                     <div className="meta-cards mt-4">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 mb-3">

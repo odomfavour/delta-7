@@ -9,7 +9,7 @@ const Faq = () => {
     return (
         <div className='pt-5 faq-section' id="faq">
             <div className="container">
-                <h2 className="text-center">FAQ</h2>
+                <h2 className="text-center heading">FAQ</h2>
                 <div className="accordion-box p-lg-5">
                     <Accordion defaultActiveKey="0">
                         {faqs.map((faq) => (
