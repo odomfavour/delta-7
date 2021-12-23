@@ -1,10 +1,12 @@
 .meta-holder {
-    background: #210036;
+    background: url(../../images/parabg.png),#210036;
+    color: #fff;
+    background-size: cover;
     overflow-x: hidden;
 }
 
 .meta-section {
-    background: #27073B;
+    /* background: #27073B; */
     /* box-shadow: 8px 10px 0px rgba(33, 0, 54, 0.25); */
     /* border-radius: 6px; */
     color: #fff;

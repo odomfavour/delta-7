@@ -7,6 +7,7 @@ import fairLaunch from '../../images/black-hole/fair-launch.png'
 import risingGraph from '../../images/black-hole/rising-graph.png'
 import whaleSafety from '../../images/black-hole/whale-safety.png'
 
+
 const Blackhole = () => {
     return (
         <div className="blackhole-section pt-5">

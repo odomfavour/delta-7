@@ -8,6 +8,8 @@ import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 // Import Swiper styles
 import 'swiper/swiper.min.css'; // core Swiper
 import 'swiper/modules/autoplay/autoplay.min.css'; // core Swiper
+import 'swiper/modules/navigation/navigation.min.css'; // core Swiper
+import 'swiper/modules/navigation/navigation.js'; // core Swiper
 
 const Counter = () => {
     return (
@@ -50,11 +52,11 @@ const Counter = () => {
             </section>
             <section className="mt-3">
                 <div className="container-fluid">
-                <Swiper
+                <Swiper 
                         modules={[Autoplay, Navigation]}
                         spaceBetween={20}
                         slidesPerView={4}
-                        navigation
+                        navigation={true}
                         autoplay
                         breakpoints={{
                             375: {

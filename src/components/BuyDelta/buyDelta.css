@@ -1,4 +1,14 @@
 .buy-delta-section {
-    background: #210036;
+    background: url(../../images/parabg.png),#210036;
     color: #fff;
+    background-size: cover;
+}
+
+/* .buy-section {
+    background: url(../../images/parabg.png);
+    background-size: cover;
+} */
+
+.text-warning {
+    color: #BE8F14 !important;
 }

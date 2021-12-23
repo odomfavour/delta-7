@@ -8,8 +8,8 @@ const BuyDelta = () => {
     return (
         <div className="pt-5 buy-delta-section">
             <div className="container">
-                <div className="buy-section">
-                    <h1 className='heading'>HOW TO BUY $DELTA7?</h1>
+                <div className="buy-section pt-5">
+                    <h1 className='heading pt-5'>HOW TO BUY $<span className='text-warning'>DELTA7</span>?</h1>
                     <div className="mt-5">
                         <div className="row">
                             <div className="col-lg-5 col-md-7 mb-3">
