@@ -2,3 +2,25 @@
     background: #210036;
     color: #fff; 
 }
+
+.news-card {
+    height: 200px;
+    background: #c4c4c4;
+    color: #fff;
+}
+
+.news-card div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.news-card h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.news-card p {
+    font-size: 14px;
+    font-weight: 700;
+}
