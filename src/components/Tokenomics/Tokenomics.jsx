@@ -10,8 +10,7 @@ const Tokenomics = () => {
                 <div className="token-base">
                     <div className="row">
                         <div className="col-md-6 mb-3 pe-5">
-                            <p>DFCWA Token is issued and supported by Binance Smart Chain, Laatoken and CoinGecko, which are completely decentralized. It adopts a super combustible mechanism to make the number of Tokens burn very quickly,</p>
-                            <p>drastically reducing the supply in circulation. Under the premise of fair issuance, DFCWA will trigger the corresponding Token distribution for each transfer or transaction on the chain which includes Token burn, currency holding income, and NFT mining pool, and will burn all private keys to ensure its fairness</p>
+                            <p>$DFC token represents the common currency of the DELTA7 gaming metaverse. IT has a very strong support system built on block chain and they include Binance Smart Chain, CoinGecko and Latoken. It utilizes a very unique system that aids the burning of tokens affecting its total supply by reducing it and this ensures fairness in the circulation and distribution of the $DFC token.</p>
                             <div className="my-4 contract-token">
                                 <h5>Contract Address</h5>
                                 <form action="">

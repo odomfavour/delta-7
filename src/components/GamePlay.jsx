@@ -47,8 +47,7 @@ const GamePlay = () => {
                     </Swiper>
                     <div className="text-center mb-5 pb-5">
                         <h5>Play with Friends</h5>
-                        <p>Share strategies, donate cards to help your teammates, build your own community! Compete against each other to 
-                            see who is the best earner in Defiwar</p>
+                        <p>Why play online games when you can play in the virtual world with friends, build up teammates, share strategies, build your own community and play against each other to see who earns more in delta7; stocking the very best digital items and accoutrement for effective gaming under a platform solidly protected by a decentralized block chain technology.</p>
                     </div>
                 </section>
             </div>

@@ -1,6 +1,8 @@
 .faq-section {
     background: #210036;
     color: #fff;
+    white-space: pre-line;  
+    vertical-align: bottom;
 }
 
 .accordion-item {

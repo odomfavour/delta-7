@@ -22,7 +22,7 @@ const BuyDelta = () => {
                                     <div className="col-md-7">
                                         <div className="buy-text">
                                             <h5>Create A Wallet</h5>
-                                            <p>The innovative concept of NFT Yield Farming allows NFT collections to be used in Delta7 Yield farming, which exceptionally enhances NFT collection value</p>
+                                            <p>Visit Google Chrome, download the Trust Wallet or Binance app and set up a wallet. Android or iOS users can download the app</p>
                                         </div>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const BuyDelta = () => {
                                     <div className="col-md-7">
                                     <div className="buy-text">
                                     <h5>Send $DFC to Binance Chain Wallet</h5>
-                                        <p>The innovative concept of NFT Yield Farming allows NFT collections to be used in Delta7 Yield farming, which exceptionally enhances NFT collection value</p>
+                                        <p>After buying BNB from the Binance Exchange, transfer it to Trust Wallet wallet address.</p>
                                     </div>
                                     </div>
                                 </div>

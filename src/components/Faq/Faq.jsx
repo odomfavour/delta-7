@@ -13,7 +13,7 @@ const Faq = () => {
                 <div className="accordion-box p-lg-5">
                     <Accordion defaultActiveKey="0">
                         {faqs.map((faq) => (
-                            <Accordion.Item eventKey={faq.id - 1}>
+                            <Accordion.Item eventKey={faq.id - 1} key={faq.id}>
                                 <Accordion.Header><span className='faq-question'>{faq.question}</span></Accordion.Header>
                                 <Accordion.Body>
                                 {faq.answer}

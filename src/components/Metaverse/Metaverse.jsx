@@ -22,7 +22,7 @@ const Metaverse = () => {
                                     </div>
                                     <div className="meta-text">
                                         <h2 className="text-warning">NFT Yield Farming</h2>
-                                        <p>The innovative concept of NFT Yield Farming allows NFT collections to be used in DeFi Yield farming, which exceptionally enhances NFT collection value</p>
+                                        <p>Invest in NFTs early enough as their worth increases overtime when more players purchases a particular NFT causing an exceptional enhancement for NFT collection value!!</p>
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const Metaverse = () => {
                                     </div>
                                     <div className="meta-text">
                                         <h2 className="text-warning">GameFi: Play to Earn</h2>
-                                        <p>With NFT gaming metaverse, DFCWA aims to create a new financial system integrated with blockchain and gaming which will make the application entertaining as well as inestable</p>
+                                        <p>Focusing on NFT gaming metaverse, DELTA7 is targeting a creation of a more pleasurable new financial system that is block chain enhanced.</p>
                                     </div>
                                 </div>
                             </div>

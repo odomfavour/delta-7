@@ -14,6 +14,7 @@ import Partners from '../components/Partners/Partners'
 import RoadMap from '../components/RoadMap/RoadMap'
 import Tokenomics from '../components/Tokenomics/Tokenomics'
 import Faq from '../components/Faq/Faq'
+import DiscoverMetaverse from '../components/DiscoverMetaverse/DiscoverMetaverse'
 
 const index = () => {
     return (
@@ -21,6 +22,7 @@ const index = () => {
            <Header/>
            <Hero/>
            <Counter/>
+           <DiscoverMetaverse/>
            <GamePlay/>
            <NftItems/>
            <Metaverse/>
