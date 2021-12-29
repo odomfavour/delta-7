@@ -8,7 +8,7 @@ export const faqs = [
     {
         "id" : 2,
         "question" : "HOW DO I BUY $DFC? IS IT SAFE?",
-        "answer" : "$DFC is Binance Smart Chain based with a locked liquidity forever; https://bscscan.com/token/0xBbba7668E36752F3eDfc0fF794FdDA090B7560?a=0×000000000000000000000000000000000000dead. This is a decentralized block chain system that no one has control over hence it is very much secured. \nYou can get $DFC on Latoken, Pancakeswap, CoinGecko. \n Contract address: 0x996c1bf72Ec220289ae0edd3a8d77080642121a2",
+        "answer" : "$DFC is Binance Smart Chain based with a locked liquidity forever; https://bscscan.com/token0xBbba7668E36752F3eDfc0fF794FdDA090B7560?a=0×000000000000000000000000000000000000dead. This is a decentralized block chain system that no one has control over hence it is very much secured. \nYou can get $DFC on Latoken, Pancakeswap, CoinGecko. \nContract address: 0x996c1bf72Ec220289ae0edd3a8d77080642121a2",
     },
     {
         "id" : 3,

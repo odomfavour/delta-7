@@ -14,7 +14,8 @@
 
 .nft-item-box img {
     height: 210px;
-    object-fit: cover;
+    width: 100% !important;
+    /* object-fit: cover; */
 }
 
 /* .nft-item-box:hover {
@@ -61,7 +62,8 @@
 
 .character-box .character {
     height: 400px;
-    object-fit: cover;
+    /* object-fit: cover; */
+    width: 100% !important;
 }
 
 .bounce {
@@ -71,4 +73,12 @@
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-30px);}
     60% {transform: translateY(-15px);}
+  }
+
+  @media(max-width: 320px) {
+    .character-box .character {
+        height: 300px;
+        /* object-fit: cover; */
+        width: 100% !important;
+    }
   }

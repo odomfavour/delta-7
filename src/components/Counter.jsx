@@ -62,6 +62,10 @@ const Counter = () => {
                         navigation={true}
                         autoplay
                         breakpoints={{
+                            320: {
+                                slidesPerView: 1,
+                                spaceBetweenSlides: 50
+                            },
                             375: {
                                 slidesPerView: 1,
                                 spaceBetweenSlides: 50

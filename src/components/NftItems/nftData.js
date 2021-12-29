@@ -4,8 +4,8 @@
 // import monkLee from '../../images/nft-items/monk-lee.png'
 // import spiritHowl from '../../images/nft-items/spirit-howl.png'
 // import swordMage from '../../images/nft-items/swordmage.png'
-import yuan from '../../images/nft-items/yuan.png'
-import yuanFull from '../../images/nft-items/yuan-full.png'
+// import yuan from '../../images/nft-items/yuan.png'
+// import yuanFull from '../../images/nft-items/yuan-full.png'
 import blackVille from '../../images/nft-items/BlackVille.png'
 import blackVilleFull from '../../images/nft-items/BlackVilleFull.png'
 import medaline from '../../images/nft-items/Medaline.png'
@@ -72,48 +72,41 @@ export const characters = [
     },
     {
         "id" : 7,
-        "name" : "yuan",
-        "image" : yuan,
-        "fullImage" : yuanFull,
+        "name" : "Gluth",
+        "image" : gluth,
+        "fullImage" : doganFull,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
         "id" : 8,
-        "name" : "Gluth",
-        "image" : gluth,
-        "fullImage" : yuanFull,
+        "name" : "Seadon",
+        "image" : seadon,
+        "fullImage" : doganFull,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
         "id" : 9,
-        "name" : "Seadon",
-        "image" : seadon,
-        "fullImage" : yuanFull,
+        "name" : "monoh",
+        "image" : monoh,
+        "fullImage" : doganFull,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
         "id" : 10,
-        "name" : "monoh",
-        "image" : monoh,
-        "fullImage" : yuanFull,
-        "description" : "Share strategies, donate cards to help your team mates, build your own community!",
-    },
-    {
-        "id" : 11,
         "name" : "Wirl",
         "image" : wirl,
         "fullImage" : wirlee,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
-        "id" : 12,
+        "id" : 11,
         "name" : "Swirly",
         "image" : swirly,
         "fullImage" : wirlee,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
-        "id" : 13,
+        "id" : 12,
         "name" : "jungle bell",
         "image" : jungleBell,
         "fullImage" : jungleBellFull,

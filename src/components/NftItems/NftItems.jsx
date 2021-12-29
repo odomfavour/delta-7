@@ -43,6 +43,10 @@ const NftItems = () => {
                 navigation
                 autoplay
                 breakpoints={{
+                    320: {
+                        slidesPerView: 1,
+                        spaceBetweenSlides: 50
+                    },
                     375: {
                         slidesPerView: 2,
                         spaceBetweenSlides: 10

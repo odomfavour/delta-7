@@ -7,6 +7,7 @@ import twitter from '../../images/socials/twitter.svg'
 import youtube from '../../images/socials/youtube.svg'
 import facebook from '../../images/socials/facebook.svg'
 import telegram from '../../images/socials/telegram.svg'
+import whitepaper from '../../images/assets/delta7-whitepaper.pdf'
 
 const Footer = () => {
     return (
@@ -22,7 +23,7 @@ const Footer = () => {
                                 <li><Link to="/">GameBase</Link></li>
                                 <li><Link to="/">PrivatePolicy</Link></li>
                                 <li><Link to="/">GameFi</Link></li>
-                                <li><Link to="/">Docs</Link></li>
+                                <li><a href = {whitepaper} target = "_blank" rel="noreferrer">Docs</a></li>
                                 <li><Link to="/">Terms of Service</Link></li>
                             </ul>
                         </div>

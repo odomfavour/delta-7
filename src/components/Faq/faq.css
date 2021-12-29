@@ -1,7 +1,7 @@
 .faq-section {
     background: #210036;
     color: #fff;
-    white-space: pre-line;  
+    white-space: pre-wrap; 
     vertical-align: bottom;
 }
 
@@ -34,4 +34,10 @@
 
 .faq-question {
     width: 85%;
+}
+
+@media(max-width: 700px) {
+    .faq-section {
+        /* white-space: pre-wrap !important; */
+    }
 }
