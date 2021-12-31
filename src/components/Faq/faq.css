@@ -3,6 +3,7 @@
     color: #fff;
     white-space: pre-wrap; 
     vertical-align: bottom;
+    word-break: break-word;
 }
 
 .accordion-item {
@@ -38,6 +39,6 @@
 
 @media(max-width: 700px) {
     .faq-section {
-        /* white-space: pre-wrap !important; */
+        word-break: break-word;
     }
 }

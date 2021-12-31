@@ -2,9 +2,31 @@
     background: #210036;
     min-height: 80vh;
     color: #fff;
+    position: relative;
 }
 
-.contract-token input{
+.contract-token input, .contract-token input:disabled{
     background: #210036;
     color: #fff;
+}
+
+.contract-token input:focus {
+    background: #210036;
+    color: #fff;
+}
+
+.contract-token {
+    position: relative;
+}
+
+.copy-icon {
+    position: absolute;
+    top: 40px;
+    right: 15px;
+}
+
+@media (max-width: 376px) {
+    .contract-token input {
+        font-size: 13px;
+    }
 }
