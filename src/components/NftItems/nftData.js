@@ -16,16 +16,18 @@ import sheyok from '../../images/nft-items/Sheyok.png'
 import sheyokFull from '../../images/nft-items/Sheyok-full.png'
 import guruh from '../../images/nft-items/Guruh.png'
 import guruhFull from '../../images/nft-items/Guruh-full.png'
-import gluth from '../../images/nft-items/Gluth.png'
+// import gluth from '../../images/nft-items/Gluth.png'
 import wirl from '../../images/nft-items/Wirl.png'
 import wirlee from '../../images/nft-items/Wirllee.png'
-import seadon from '../../images/nft-items/Seadon.png'
-import monoh from '../../images/nft-items/Monoh.png'
-import swirly from '../../images/nft-items/Swirly.png'
+// import seadon from '../../images/nft-items/Seadon.png'
+// import monoh from '../../images/nft-items/Monoh.png'
+// import swirly from '../../images/nft-items/Swirly.png'
 import dogan from '../../images/nft-items/Dogan.png'
 import doganFull from '../../images/nft-items/Dogan-full.png'
 import jungleBell from '../../images/nft-items/Jungle-Bell.png'
 import jungleBellFull from '../../images/nft-items/Jungle-Bell-full.png'
+import woody from '../../images/nft-items/Woody.png'
+import woodyFull from '../../images/nft-items/Woody-full.png'
 
 export const characters = [
     {
@@ -72,41 +74,20 @@ export const characters = [
     },
     {
         "id" : 7,
-        "name" : "Gluth",
-        "image" : gluth,
-        "fullImage" : doganFull,
+        "name" : "Woody",
+        "image" : woody,
+        "fullImage" : woodyFull,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
         "id" : 8,
-        "name" : "Seadon",
-        "image" : seadon,
-        "fullImage" : doganFull,
-        "description" : "Share strategies, donate cards to help your team mates, build your own community!",
-    },
-    {
-        "id" : 9,
-        "name" : "monoh",
-        "image" : monoh,
-        "fullImage" : doganFull,
-        "description" : "Share strategies, donate cards to help your team mates, build your own community!",
-    },
-    {
-        "id" : 10,
         "name" : "Wirl",
         "image" : wirl,
         "fullImage" : wirlee,
         "description" : "Share strategies, donate cards to help your team mates, build your own community!",
     },
     {
-        "id" : 11,
-        "name" : "Swirly",
-        "image" : swirly,
-        "fullImage" : wirlee,
-        "description" : "Share strategies, donate cards to help your team mates, build your own community!",
-    },
-    {
-        "id" : 12,
+        "id" : 9,
         "name" : "jungle bell",
         "image" : jungleBell,
         "fullImage" : jungleBellFull,

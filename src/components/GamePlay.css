@@ -1,6 +1,6 @@
 .game-play-section {
     background: url(../images/fight-bg.png),#210036;
-    height: 100vh;
+    min-height: 70vh;
     background-size: cover;
     background-position: top center;
     color: #fff;

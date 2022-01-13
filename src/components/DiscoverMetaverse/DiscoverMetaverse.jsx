@@ -3,9 +3,9 @@ import './discoverMetaverse.css'
 
 const DiscoverMetaverse = () => {
     return (
-        <div className='discoverMetaverse-section py-5'>
+        <div className='discoverMetaverse-section py-5' id="about">
             <div className="container">
-                <h1 className="pt-5 pb-3 heading">DISCOVER<span className="text-warning">DELTA 7 METAVERSE</span></h1>
+                <h1 className="pt-5 pb-3 heading">DISCOVER <span className="text-warning">DELTA 7 METAVERSE</span></h1>
                 <div className="row">
                     <div className="col-md-7">
                         <p>With the world shifting into the virtual world at a fast pace, we present to you a unique online event you’ve never seen before.</p>

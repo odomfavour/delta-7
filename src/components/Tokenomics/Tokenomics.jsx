@@ -5,7 +5,7 @@ import copyIcon from '../../images/copy-icon.png'
 
 const Tokenomics = () => {
     return (
-        <div className="token-section py-5" id="token">
+        <div className="token-section pb-3 pt-5" id="token">
             <div className="container">
                 <h1 className='heading'>TOKEN<span className="text-warning">OMICS</span></h1>
                 <div className="token-base">
@@ -24,9 +24,9 @@ const Tokenomics = () => {
                         </div>
                         <div className="col-md-6 mb-3">
                             <div className="chart-section">
-                                {/* <h5 className="text-center">
-                                Total: 500.000.000 DFCWA
-                                </h5> */}
+                                <h5 className="text-center">
+                                Total: 500.000.000 DFC
+                                </h5>
                                 <div className="chart-box px-md-5">
                                     <img src={Tchart} alt="" className="img-fluid"/>
                                 </div>

@@ -19,7 +19,7 @@ const GamePlay = () => {
         <div className="game-play-section">
             <div className="container">
                 <h1 className="pt-5 heading">Game<span className="text-warning">Play</span></h1>
-                <section className="my-5">
+                <section className="mt-5">
                     <Swiper
                         modules={[Autoplay, Navigation]}
                         spaceBetween={50}
@@ -45,7 +45,7 @@ const GamePlay = () => {
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                    <div className="text-center mb-5 pb-5">
+                    <div className="text-center pb-3">
                         <h5>Play with Friends</h5>
                         <p>Why play online games when you can play in the virtual world with friends, build up teammates, share strategies, build your own community and play against each other to see who earns more in delta7; stocking the very best digital items and accoutrement for effective gaming under a platform solidly protected by a decentralized block chain technology.</p>
                     </div>

@@ -26,6 +26,9 @@ const Header = () => {
                             <a className="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li className="nav-item">
                             <a className="nav-link" href="#token">Token</a>
                         </li>
                         <li className="nav-item">
@@ -39,9 +42,6 @@ const Header = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link"  href="#nft-market">NFT Market</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link"  href="#partners">Partners</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link btn main-btn" to="/">BUY DELTA7</Link>

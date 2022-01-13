@@ -1,6 +1,6 @@
 .hero-section {
     background: url(../images/hero-bg.png),#210036;
-    height: 100vh;
+    min-height: 70vh;
     background-size: cover;
     background-position: top center;
     padding-top: 100px;
