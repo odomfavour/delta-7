@@ -1,6 +1,6 @@
 .counter-section {
     background: #210036;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     color: #fff;
 }
 
@@ -22,5 +22,11 @@
 
 .count-box p {
     font-weight: 500;
+}
+
+.partner-title {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
 

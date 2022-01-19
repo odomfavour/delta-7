@@ -27,6 +27,17 @@
 
 @media(max-width: 760px) {
     .welcome-section {
-        margin-top: -100px;
+        margin-top: -20px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .welcome-section h1 {
+        font-size: 28px;
+    }
+
+    .welcome-section h5 {
+        font-size: 14px;
     }
 }

@@ -55,6 +55,7 @@ const Counter = () => {
             </section>
             <section className="mt-3">
                 <div className="container-fluid">
+                    <h2 className="heading d-md-none d-lg-none py-3 partner-title">PARTNERS ANNOUNCEMENT</h2>
                 <Swiper 
                         modules={[Autoplay, Navigation]}
                         spaceBetween={20}

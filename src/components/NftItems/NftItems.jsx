@@ -34,8 +34,10 @@ const NftItems = () => {
     }
     return (
         <div className="nft-section pt-5" id="nft-market">
+            <div className="container-fluid">
             <h2 className="text-center mb-3 heading pt-3">NFT <span className="text-warning">ITEMS</span></h2>
             <p className="text-center mb-5">From the ancient African culture combining characters from stories we have leading NFTs ranging from popular to epic, epic to rare and rare to unique. You can earn this free NFTs that can be traded immediately for quick cash the more you play.</p>
+            </div>
             <Swiper
                 modules={[Autoplay, Navigation]}
                 spaceBetween={10}
@@ -82,12 +84,12 @@ const NftItems = () => {
                         <div className="col-lg-9 col-md-11">
                             <div className="character-space">
                                 <div className="row">
-                                    <div className="col-md-7 mb-3">
+                                    <div className="col-md-7 col-7 mb-3">
                                         <div className="character-box text-center">
                                             <img src={character.fullImage} alt="yuan with snakes" className="img-fluid bounce character" />
                                         </div>
                                     </div>
-                                    <div className="col-md-5 mb-3">
+                                    <div className="col-md-5 col-5 mb-3">
                                         <div className="character-text">
                                             <h3 className="text-warning text-uppercase">{character.name}</h3>
                                             <p>Be up to date on the price and worth of DELTA7 token (DFC)</p>

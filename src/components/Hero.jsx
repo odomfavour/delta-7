@@ -4,7 +4,7 @@ import gameCards from '../images/Union.png'
 
 const Hero = () => {
     return (
-        <div className="hero-section">
+        <div className="hero-section" id="home">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6 text-center">

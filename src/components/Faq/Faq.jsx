@@ -7,9 +7,9 @@ import './faq.css'
 
 const Faq = () => {
     return (
-        <div className='py-5 faq-section' id="faq">
+        <div className='pt-3 pb-1 faq-section' id="faq">
             <div className="container">
-                <h2 className="text-center heading">FAQ</h2>
+                <h2 className="text-center heading pb-3">FAQ</h2>
                 <div className="accordion-box p-lg-5">
                     <Accordion defaultActiveKey="0">
                         {faqs.map((faq) => (

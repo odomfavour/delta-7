@@ -24,12 +24,15 @@ const Tokenomics = () => {
                         </div>
                         <div className="col-md-6 mb-3">
                             <div className="chart-section">
-                                <h5 className="text-center">
+                                <h5 className="text-center d-md-block d-lg-block d-none">
                                 Total: 500.000.000 DFC
                                 </h5>
                                 <div className="chart-box px-md-5">
                                     <img src={Tchart} alt="" className="img-fluid"/>
                                 </div>
+                                <h5 className="text-center d-md-none d-lg-none pt-3">
+                                Total: 500.000.000 DFC
+                                </h5>
                             </div>
                         </div>
                     </div>

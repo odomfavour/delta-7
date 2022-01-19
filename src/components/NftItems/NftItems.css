@@ -62,7 +62,7 @@
 
 .character-box .character {
     height: 400px;
-    /* object-fit: cover; */
+    object-fit: contain;
     width: 100% !important;
 }
 
@@ -75,10 +75,11 @@
     60% {transform: translateY(-15px);}
   }
 
-  @media(max-width: 320px) {
+  @media(max-width: 426px) {
     .character-box .character {
         height: 300px;
-        /* object-fit: cover; */
+        object-fit: cover;
         width: 100% !important;
+        object-position: 30%;
     }
   }

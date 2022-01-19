@@ -10,7 +10,7 @@ import whaleSafety from '../../images/black-hole/whale-safety.png'
 
 const Blackhole = () => {
     return (
-        <div className="blackhole-section pt-5">
+        <div className="blackhole-section pt-md-5">
             <div className="container-fluid">
                 <div className="black-hole-holder">
                     <h2 className="text-center heading">BLACK HOLE </h2>

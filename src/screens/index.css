@@ -13,8 +13,19 @@ body {
 .heading {
     font-size: 36px;
     font-weight: 700;
+    font-family: Montserrat;
 }
 
 .text-warning {
     color: #BE8F14 !important;
+}
+
+@media (max-width: 760px) {
+    .heading {
+        font-size: 20px;
+        line-height: 28px;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
 }

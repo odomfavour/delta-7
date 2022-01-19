@@ -8,3 +8,16 @@
 .discoverMetaverse-section li .bold-text {
     font-weight: 700;
 }
+
+@media (max-width: 700px) {
+    .row .side-text {
+        order: 2
+    }
+
+    .row .side-image img {
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 30%;
+    }
+}

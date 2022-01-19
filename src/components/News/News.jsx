@@ -53,18 +53,7 @@ const News = () => {
                         <div className="col-md-12">
                             <div className='d-flex justify-content-center align-items-center news-card'>
                                 <div className='text-center'>
-                                    <h5>DELTA7 FEATURES COMING SOON</h5>
-                                    <p>UPGRADING PETS: STAR, LEVEL, SKILL LEVEL</p>
-                                </div>
-                            </div>
-                        </div>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                        <div className="col-md-12">
-                        <div className='d-flex justify-content-center align-items-center news-card'>
-                                <div className='text-center'>
-                                    <h5>DELTA7 FEATURES COMING SOON</h5>
-                                    <p>UPGRADING PETS: STAR, LEVEL, SKILL LEVEL</p>
+                                    <h5>DELTA7 PARTNER ANNOUNCEMENT</h5>
                                 </div>
                             </div>
                         </div>
@@ -84,8 +73,16 @@ const News = () => {
                         <div className='d-flex justify-content-center align-items-center news-card'>
                                 <div className='text-center'>
                                     <h5>PARTNERSHIP ANNOUNCEMENT DELTA7</h5>
-                                    <p>WELCOME OUR NEW PARTNER
-</p>
+                                    <p>WELCOME OUR NEW PARTNER</p>
+                                </div>
+                            </div>
+                        </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                        <div className="col-md-12">
+                        <div className='d-flex justify-content-center align-items-center news-card'>
+                                <div className='text-center'>
+                                    <h5>BACKER ANNOUNCEMENT</h5>
                                 </div>
                             </div>
                             </div>
