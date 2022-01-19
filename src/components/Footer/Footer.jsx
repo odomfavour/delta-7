@@ -23,34 +23,39 @@ const Footer = () => {
                                 <li><Link to="/">GameBase</Link></li>
                                 <li><Link to="/">PrivatePolicy</Link></li>
                                 <li><Link to="/">GameFi</Link></li>
-                                <li><a href = {whitepaper} target = "_blank" rel="noreferrer">Docs</a></li>
+                                <li><a href={whitepaper} target="_blank" rel="noreferrer">Docs</a></li>
                                 <li><Link to="/">Terms of Service</Link></li>
                             </ul>
                         </div>
                         <div className="social-links">
                             <ul>
-                                <li><Link to="/">
-                                    <img src={telegram} alt="" className="img-fluid"/>
-                                    </Link></li>
-                                <li><Link to="/">
-                                <img src={facebook} alt="" className="img-fluid"/>
-                                    </Link></li>
-                                <li><Link to="/">
-                                <img src={youtube} alt="" className="img-fluid"/>
-                                    </Link></li>
-                                <li><Link to="/">
-                                <img src={twitter} alt="" className="img-fluid"/>
-                                    </Link></li>
+                                <li><a href="https://t.me/deficonnect" target="_blank" rel="noreferrer">
+                                    <img src={telegram} alt="" className="img-fluid" />
+                                </a>
+
+                                </li>
+                                <li>
+                                    <a href="https://web.facebook.com/deficonnect?_rdc=1&_rdr" target="_blank" rel="noreferrer">
+                                        <img src={facebook} alt="" className="img-fluid" />
+                                    </a></li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UCYq2MxoWOXfkFHGuAr1H7dQ" target="_blank" rel="noreferrer">
+                                        <img src={youtube} alt="" className="img-fluid" />
+                                    </a></li>
+                                <li>
+                                    <a href="https://twitter.com/deficonnect" target="_blank" rel="noreferrer">
+                                        <img src={twitter} alt="" className="img-fluid" />
+                                    </a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
-                
+
             </div>
             <div className="d-flex">
-                <hr className="d-md-block d-none"/>
+                <hr className="d-md-block d-none" />
                 <p className="text-center copyright">Copyright &copy; 2021 DELTA7. All right reserved</p>
-                <hr className="d-md-block d-none"/>
+                <hr className="d-md-block d-none" />
             </div>
         </div>
     )
