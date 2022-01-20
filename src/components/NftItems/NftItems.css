@@ -91,6 +91,6 @@
 
     .nft-item-box img {
         min-height: 230px;
-        object-fit: contain;
+        object-fit: cover;
     }
   }
