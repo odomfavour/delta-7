@@ -15,7 +15,8 @@
 .nft-item-box img {
     height: 210px;
     width: 100% !important;
-    /* object-fit: cover; */
+    object-fit: cover;
+    object-position: top left;
 }
 
 /* .nft-item-box:hover {
@@ -66,6 +67,11 @@
     width: 100% !important;
 }
 
+.character-text h3 {
+    font-family: 'Spicy Rice', cursive;
+    font-size: 32px;
+}
+
 .bounce {
     animation: bounce 2s ease infinite;
   }
@@ -81,5 +87,10 @@
         object-fit: cover;
         width: 100% !important;
         object-position: 30%;
+    }
+
+    .nft-item-box img {
+        min-height: 230px;
+        object-fit: contain;
     }
   }

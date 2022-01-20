@@ -6,7 +6,7 @@ const RoadMap = () => {
     return (
         <div className="pt-5 road-map-section">
             <div className="container">
-                <div className="roadmap-holder pb-5">
+                <div className="roadmap-holder">
                     <div className="row">
                         <div className="col-md-4 mb-3">
                             <div className="d-flex justify-content-start align-items-center h-100">

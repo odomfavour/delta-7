@@ -84,12 +84,12 @@ const NftItems = () => {
                         <div className="col-lg-9 col-md-11">
                             <div className="character-space">
                                 <div className="row">
-                                    <div className="col-md-7 col-7 mb-3">
+                                    <div className="col-md-6 mb-3">
                                         <div className="character-box text-center">
                                             <img src={character.fullImage} alt="yuan with snakes" className="img-fluid bounce character" />
                                         </div>
                                     </div>
-                                    <div className="col-md-5 col-5 mb-3">
+                                    <div className="col-md-6 mb-3">
                                         <div className="character-text">
                                             <h3 className="text-warning text-uppercase">{character.name}</h3>
                                             <p>Be up to date on the price and worth of DELTA7 token (DFC)</p>

@@ -51,12 +51,12 @@ const BuyDelta = () => {
                             <div className="col-lg-1"></div>
                             <div className="col-lg-5 col-md-7 mb-3">
                                 <div className="row">
-                                    <div className="col-md-4">
+                                    <div className="col-md-5">
                                     <div className="icon-box text-center">
                                         <img src={step3} alt="" className="img-fluid"/>
                                     </div>
                                     </div>
-                                    <div className="col-md-8">
+                                    <div className="col-md-7">
                                     <div className="buy-text">
                                     <h5>Use BNB to exchange DELTA7</h5>
                                     <ul className="">
