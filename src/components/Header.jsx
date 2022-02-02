@@ -29,7 +29,7 @@ const Header = () => {
                             <a className="nav-link" aria-current="page" href="/#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"  href="/nft-market">NFT Market</a>
+                            <Link className="nav-link"  to="/nft-market">NFT Market</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/#metaverse">Metaverse</a>
