@@ -1,0 +1,32 @@
+
+.nft-market {
+    min-height: 100vh;
+    background: url(../../images/nft-items/coming-soon/nft-bg.png), #210036;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    margin-top: 90px;
+}
+
+.clock-box {
+    height: 80vh;
+    padding-bottom: 150px;
+}
+
+.clock-box img {
+    height: 80vh;
+}
+
+.nft-market .image-box {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.coming-text {
+    z-index: 50;
+}

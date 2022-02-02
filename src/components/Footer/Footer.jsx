@@ -23,7 +23,7 @@ const Footer = () => {
                                 <li><Link to="/">GameBase</Link></li>
                                 <li><Link to="/">PrivatePolicy</Link></li>
                                 <li><Link to="/">GameFi</Link></li>
-                                <li><a href={whitepaper} target="_blank" rel="noreferrer">Docs</a></li>
+                                <li><a href={whitepaper} target="_blank" rel="noreferrer">Whitepaper</a></li>
                                 <li><Link to="/">Terms of Service</Link></li>
                             </ul>
                         </div>

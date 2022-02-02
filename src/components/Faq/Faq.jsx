@@ -16,7 +16,7 @@ const Faq = () => {
                             <Accordion.Item eventKey={faq.id - 1} key={faq.id}>
                                 <Accordion.Header><span className='faq-question'>{faq.question}</span></Accordion.Header>
                                 <Accordion.Body>
-                                    <p>{faq.answer}</p>
+                                    <p dangerouslySetInnerHTML={{__html:faq.answer}}></p>
                                 </Accordion.Body>
                             </Accordion.Item>
                         ))}

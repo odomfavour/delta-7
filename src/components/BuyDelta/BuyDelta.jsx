@@ -41,7 +41,7 @@ const BuyDelta = () => {
                                     <div className="col-md-7">
                                     <div className="buy-text">
                                     <h5>Send $DFC to Binance Chain Wallet</h5>
-                                        <p>After buying DFC from the PancakeSwap or other <a href="https://deficonnect.tech/markets" target="_blank" rel="noreferrer">DFC market</a> where , transfer it to Trust Wallet wallet address.</p>
+                                        <p>After buying DFC from the PancakeSwap or other <a href="https://deficonnect.tech/markets" target="_blank" rel="noreferrer" className='text-warning'>DFC Market</a> where , transfer it to Trust Wallet wallet address.</p>
                                     </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const BuyDelta = () => {
                                         <li>Before the exchange is completed, click the gear and set the slide to 10-15%</li>
                                         <li>Set the amount you want to buy and click on the exchange button</li>
                                             </ul>
-                                            <p>PancakeSwap: <span className='text-warning'>https://exchange.pancakeswap.finance</span></p>
+                                            <p>PancakeSwap: <span className='text-warning'><a href="https://exchange.pancakeswap.finance" className="text-warning">https://exchange.pancakeswap.finance</a></span></p>
                                     </div>
                                     </div>
                                 </div>

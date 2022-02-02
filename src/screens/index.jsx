@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.css'
 // import Blackhole from '../components/BlackHole/Blackhole'
-import BuyDelta from '../components/BuyDelta/BuyDelta'
+// import BuyDelta from '../components/BuyDelta/BuyDelta'
 import Counter from '../components/Counter'
 import Footer from '../components/Footer/Footer'
 import GamePlay from '../components/GamePlay'
@@ -29,7 +29,7 @@ const index = () => {
            {/* <Tokenomics/> */}
            {/* <Blackhole/> */}
            <RoadMap/>
-           <BuyDelta/>
+           {/* <BuyDelta/> */}
            <Partners/>
            <Faq/>
            {/* <News/> */}

@@ -12,3 +12,7 @@
 .text-warning {
     color: #BE8F14 !important;
 }
+
+.buy-section a {
+    text-decoration: none;
+}

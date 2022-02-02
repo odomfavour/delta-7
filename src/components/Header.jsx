@@ -26,25 +26,25 @@ const Header = () => {
                             <a className="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#about">About</a>
+                            <a className="nav-link" aria-current="page" href="/#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link"  href="#nft-market">NFT Market</a>
+                            <a className="nav-link"  href="/nft-market">NFT Market</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#metaverse">Metaverse</a>
+                            <a className="nav-link" href="/#metaverse">Metaverse</a>
                         </li>
                         {/* <li className="nav-item">
                             <a className="nav-link" href="#token">Token</a>
                         </li> */}
                         <li className="nav-item">
-                            <a className="nav-link"  href="#faq">FAQ</a>
+                            <a className="nav-link"  href="/#faq">FAQ</a>
                         </li>
+                        {/* <li className="nav-item">
+                            <a className="nav-link" href="/#news">News</a>
+                        </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" href="#news">News</a>
-                        </li>
-                        <li className="nav-item">
-                            <Link className=" btn btn-outline-warning" to="/">MINT DELTA7</Link>
+                            <Link className=" btn btn-outline-warning" to="/minting">MINT DELTA7</Link>
                         </li>
                     </Nav>
                     </Navbar.Collapse>

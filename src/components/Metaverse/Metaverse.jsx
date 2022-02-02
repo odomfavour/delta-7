@@ -10,9 +10,9 @@ const Metaverse = () => {
             <div className="container-fluid">
                 <div className="meta-section">
                     <div className="container">
-                        <h2 className='heading pt-5'>Meta<span className="text-warning">Verse</span></h2>
+                        <h2 className='heading pt-5 text-center'>Meta<span className="text-warning">Verse</span></h2>
                         <div className="meta-cards pt-5">
-                            <div className="d-flex justify-content-between flex-md-row align-items-center flex-column ">
+                            <div className="d-flex justify-content-between flex-md-row flex-column ">
                                 <div className="meta-card text-center" data-aos="fade-down" data-aos-delay="50"
                                     data-aos-duration="1000"
                                     data-aos-easing="ease-in-out-cubic">

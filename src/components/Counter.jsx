@@ -1,12 +1,12 @@
 import React from 'react'
 import './Counter.css'
 // import GameLabel from '../images/game-slide-label.png'
-import GameSlide1 from '../images/game-slide--1.png'
-import GameSlide2 from '../images/game-slide--2.png'
+// import GameSlide1 from '../images/game-slide--1.png'
+// import GameSlide2 from '../images/game-slide--2.png'
 // import GameSlideInner from '../images/game-slide-inner.png'
 // Import Swiper React components
-import { Autoplay, Navigation, } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+// import { Autoplay, Navigation, } from 'swiper';
+// import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 
 // Import Swiper styles
 import 'swiper/swiper.min.css'; // core Swiper
@@ -22,7 +22,7 @@ const Counter = () => {
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">
-                                <h1 className="text-warning">96K+ </h1>
+                                <h1 className="text-warning">30K+ </h1>
                                 <p>Telegram</p>
                             </div>
                         </div>
@@ -30,7 +30,7 @@ const Counter = () => {
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">
-                                <h1 className="text-warning">55K+ </h1>
+                                <h1 className="text-warning">2K+ </h1>
                                 <p>Facebook</p>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const Counter = () => {
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">
-                                <h1 className="text-warning">83K+ </h1>
+                                <h1 className="text-warning">500+ </h1>
                                 <p>Youtube</p>
                             </div>
                         </div>
@@ -46,14 +46,14 @@ const Counter = () => {
                     <div className="col-md-3 col-6">
                         <div className="d-flex justify-content-center align-items-center count-box">
                             <div className="text-center">
-                                <h1 className="text-warning">96K+ </h1>
+                                <h1 className="text-warning">55K+ </h1>
                                 <p>Twitter</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="mt-3">
+            {/* <section className="mt-3">
                 <div className="container-fluid">
                     <h2 className="heading d-md-none d-lg-none py-3 partner-title">PARTNERS ANNOUNCEMENT</h2>
                 <Swiper 
@@ -87,12 +87,6 @@ const Counter = () => {
                         >
                         <SwiperSlide>
                         <div className="col-md-12">
-                            {/* <div className='d-flex justify-content-center align-items-center partner-card'>
-                                <div className='text-center'>
-                                    <h5>Backer Partners</h5>
-                                    <img src={GameLabel} alt="man with a sword" className="img-fluid" />
-                                </div>
-                            </div> */}
                             <img src={GameSlide2} alt="" className='img-fluid' />
                         </div>
                         </SwiperSlide>
@@ -114,7 +108,7 @@ const Counter = () => {
                     </Swiper>
             
                 </div>
-            </section>
+            </section> */}
         </div>
     )
 }

@@ -18,11 +18,16 @@
 
 .welcome-section h5 {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 100;
 }
 
 .welcome-section button {
     font-weight: 700;
+}
+
+.welcome-section a {
+    font-weight: 700;
+    text-decoration: none;
 }
 
 @media(max-width: 760px) {
