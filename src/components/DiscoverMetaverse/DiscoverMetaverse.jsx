@@ -9,7 +9,7 @@ const DiscoverMetaverse = () => {
                 <div className="pt-4">
                 <div className="row">
                     <div className="col-md-7 side-text">
-                    <h1 className="pt-5 pb-3 heading">DISCOVER <span className="text-warning">DELTA 7 METAVERSE</span></h1>
+                    <h1 className="pt-5 pb-3 heading">DISCOVER <span className="text-warning">DELTA7 METAVERSE</span></h1>
                         <p>With the world shifting into the virtual world at a fast pace, we present to you a unique online event you’ve never seen before.</p>
                         <ul>
                             <li>Delta7: The best metaverse built on BSC blockchain with NFTs and GameFi</li>

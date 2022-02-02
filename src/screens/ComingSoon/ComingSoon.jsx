@@ -12,7 +12,6 @@ const ComingSoon = () => {
                 <div className="nft-market">
                     <div className="container">
                         <div className="d-flex align-items-center justify-content-center clock-box">
-                            
                             <div className="text-center text-white coming-text">
                                 <h1 className='pt-md-5'>COMING <span className='text-warning'>SOON</span></h1>
                             </div>
