@@ -2,7 +2,13 @@
     background: #210036 !important;
 }
 
-.main-navbar a {
+.main-navbar .btn-outline.warning {
+    color: #ffc107 !important;
+    border-color: #ffc107;
+    font-weight: 700 !important;
+}
+
+.main-navbar .nav-link {
     color: #fff !important;
     font-size: 18px !important;
     margin-right: 20px;

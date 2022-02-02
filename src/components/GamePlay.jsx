@@ -2,8 +2,8 @@ import React from 'react'
 import './GamePlay.css'
 // import fightShow from '../images/fight-show.png'
 import fightShow1 from '../images/fight-show-1.png'
-import fightShow2 from '../images/fight-show-2.png'
-import fightShow3 from '../images/fight-show-3.png'
+import fightShow2 from '../images/fight-show-22.png'
+import fightShow3 from '../images/fight-show-33.png'
 // Import Swiper React components
 import { Autoplay, Navigation, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
@@ -45,7 +45,7 @@ const GamePlay = () => {
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                    <div className="text-center pb-3">
+                    <div className="text-center pb-3 play-friends">
                         <h5>Play with Friends</h5>
                         <p>Why play online games when you can play in the virtual world with friends, build up teammates, share strategies, build your own community and play against each other to see who earns more in delta7; stocking the very best digital items and accoutrement for effective gaming under a platform solidly protected by a decentralized block chain technology.</p>
                     </div>

@@ -14,8 +14,8 @@ const Hero = () => {
                         <div className="welcome-section">
                             <h1 className="mb-3">WELCOME TO DELTA7</h1>
                             <h5 className="mb-5">Play, explore and trade in a unique virtual world that offers monetization of gaming experience and limitless rewards.</h5>
-                            <button className="btn main-btn me-3">BUY DELTA7</button>
-                            <button className="btn btn-outline-warning">ENTER APP</button>
+                            <button className="btn main-btn me-3">BUY DFC</button>
+                            <button className="btn btn-outline-warning">MINT DELTA7</button>
                         </div>
                     </div>
                 </div>

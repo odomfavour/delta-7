@@ -72,6 +72,15 @@
     font-size: 32px;
 }
 
+.nft-intro {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.character-text-box {
+    height: 400px;
+}
+
 .bounce {
     animation: bounce 2s ease infinite;
   }
@@ -82,15 +91,24 @@
   }
 
   @media(max-width: 426px) {
-    .character-box .character {
+    /* .character-box .character {
         height: 300px;
         object-fit: cover;
         width: 100% !important;
         object-position: 30%;
-    }
+    } */
 
     .nft-item-box img {
         min-height: 230px;
         object-fit: cover;
+    }
+
+    .character-text-box {
+        height: 200px;
+    }
+
+    .nft-intro {
+        width: 90%;
+        margin: 0 auto;
     }
   }

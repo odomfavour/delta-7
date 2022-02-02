@@ -12,3 +12,32 @@
     color: #fff;
     padding: 100px 0 50px 0;
 }
+
+.meta-cards {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.meta-card {
+    width: 45%;
+}
+
+@media (max-width: 900px) {
+    .meta-cards {
+        width: 100%;
+    }
+
+    .meta-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 426px) {
+        .meta-cards {
+            width: 100%;
+        }
+
+        .meta-card {
+            width: 90%;
+        }
+}

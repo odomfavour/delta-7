@@ -41,7 +41,7 @@ const BuyDelta = () => {
                                     <div className="col-md-7">
                                     <div className="buy-text">
                                     <h5>Send $DFC to Binance Chain Wallet</h5>
-                                        <p>After buying BNB from the Binance Exchange, transfer it to Trust Wallet wallet address.</p>
+                                        <p>After buying DFC from the PancakeSwap or other <a href="https://deficonnect.tech/markets" target="_blank" rel="noreferrer">DFC market</a> where , transfer it to Trust Wallet wallet address.</p>
                                     </div>
                                     </div>
                                 </div>

@@ -35,9 +35,16 @@
 
 @media(max-width: 760px) {
     .footer-section .bottom-links ul {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
     }
+
+    .footer-section .bottom-links ul li {
+        width: 40%;
+    }
+
     .footer-section .social-links, .footer-section .bottom-links {
         width: 100%;
     }

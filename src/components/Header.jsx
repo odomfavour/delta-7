@@ -34,9 +34,9 @@ const Header = () => {
                         <li className="nav-item">
                             <a className="nav-link" href="#metaverse">Metaverse</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#token">Token</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link"  href="#faq">FAQ</a>
                         </li>
@@ -44,7 +44,7 @@ const Header = () => {
                             <a className="nav-link" href="#news">News</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link btn main-btn" to="/">BUY DELTA7</Link>
+                            <Link className=" btn btn-outline-warning" to="/">MINT DELTA7</Link>
                         </li>
                     </Nav>
                     </Navbar.Collapse>
