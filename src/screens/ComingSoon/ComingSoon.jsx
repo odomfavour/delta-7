@@ -15,7 +15,6 @@ const ComingSoon = () => {
                             
                             <div className="text-center text-white coming-text">
                                 <h1 className='pt-md-5'>COMING <span className='text-warning'>SOON</span></h1>
-                                <p>To get early notification and juicy offer, drop your email. NO SPAMMING</p>
                             </div>
                         </div>
                         <div className="image-box">
