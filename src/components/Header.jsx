@@ -15,7 +15,7 @@ const Header = () => {
                 {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
                 <div className="d-flex align-items-center">
                     <Navbar.Toggle aria-controls="navbarScroll" className='me-3'><img src={hamburger} alt=""/></Navbar.Toggle>
-                    <Navbar.Brand href="#"><img src={logo} alt="" className='img-fluid'/></Navbar.Brand>
+                    <Navbar.Brand href="/"><img src={logo} alt="" className='img-fluid'/></Navbar.Brand>
                 </div>
                     <Navbar.Collapse id="navbarScroll">
                     <Nav

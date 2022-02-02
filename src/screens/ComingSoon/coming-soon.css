@@ -30,3 +30,9 @@
 .coming-text {
     z-index: 50;
 }
+
+@media (max-width: 460px) {
+    .clock-box {
+        height: 50vh;
+    }
+}

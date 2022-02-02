@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import { Link } from 'react-router-dom';
 import gameCards from '../images/Union.png'
 
 const Hero = () => {
@@ -18,7 +19,7 @@ const Hero = () => {
                             <h5>For or against,  a winner must EMERGE.</h5>
                             <h5 className='mb-4'>Fight to Win!!!</h5>
                             <a href="https://deficonnect.tech/markets" className="btn main-btn me-3" target="_blank" rel="noreferrer">BUY DFC</a>
-                            <button className="btn btn-outline-warning">MINT DELTA7</button>
+                            <Link className="btn btn-outline-warning" to="/minting">MINT DELTA7</Link>
                         </div>
                     </div>
                 </div>

@@ -14,10 +14,11 @@ const Footer = () => {
         <div className="pt-5 footer-section">
             <div className="container">
                 <section className="pb-4">
-                    <div className="d-flex flex-md-row flex-column justify-content-between align-items-baseline">
+                    <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-between align-items-baseline">
                         <div className="logo-box">
                             <img src={logo} alt="" className="img-fluid" />
                         </div>
+                        <div className="d-flex flex-md-column flex-lg-row flex-column justify-content-between b-links">
                         <div className="bottom-links">
                             <ul>
                                 <li><Link to="/">GameBase</Link></li>
@@ -25,6 +26,7 @@ const Footer = () => {
                                 <li><Link to="/">GameFi</Link></li>
                                 <li><a href={whitepaper} target="_blank" rel="noreferrer">Whitepaper</a></li>
                                 <li><Link to="/">Terms of Service</Link></li>
+                                <li><Link to="/"></Link></li>
                             </ul>
                         </div>
                         <div className="social-links">
@@ -48,6 +50,8 @@ const Footer = () => {
                                     </a></li>
                             </ul>
                         </div>
+                        </div>
+                        
                     </div>
                 </section>
 
